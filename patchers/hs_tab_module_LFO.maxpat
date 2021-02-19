@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hs_tab_pages_LFO.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 124.0, 115.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -252,29 +274,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hs_tab_pages_LFO.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ -275.0, 0.0 ],
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 34.0, 101.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
-					"varname" : "ModuleDisplay",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -399,60 +398,17 @@
  ],
 		"parameters" : 		{
 			"obj-2" : [ "live.tab", "live.tab", 0 ],
-			"obj-6::obj-2::obj-12" : [ "Dial1", "LFO5Gain", 0 ],
-			"obj-6::obj-2::obj-2" : [ "Dial2", "LFO5Rate", 0 ],
-			"obj-6::obj-5::obj-12" : [ "Dial1[1]", "LFO1Gain", 0 ],
-			"obj-6::obj-5::obj-13" : [ "Dial3[1]", "LFO2Gain", 0 ],
-			"obj-6::obj-5::obj-14" : [ "Dial4[1]", "LFO2Rate", 0 ],
-			"obj-6::obj-5::obj-15" : [ "Dial8[1]", "LFO4Rate", 0 ],
-			"obj-6::obj-5::obj-16" : [ "Dial7[1]", "LFO4Gain", 0 ],
-			"obj-6::obj-5::obj-17" : [ "Dial5[1]", "LFO3Gain", 0 ],
-			"obj-6::obj-5::obj-18" : [ "Dial6[1]", "LFO3Rate", 0 ],
-			"obj-6::obj-5::obj-2" : [ "Dial2[1]", "LFO1Rate", 0 ],
+			"obj-6::obj-1::obj-227" : [ "LFO4 Rate", "LFO4Rate", 0 ],
+			"obj-6::obj-1::obj-228" : [ "LFO4 Gain", "LFO4Gain", 0 ],
+			"obj-6::obj-1::obj-229" : [ "LFO3 Gain", "LFO3Gain", 0 ],
+			"obj-6::obj-1::obj-230" : [ "LFO3 Rate", "LFO3Rate", 0 ],
+			"obj-6::obj-1::obj-231" : [ "LFO2 Rate", "LFO2Rate", 0 ],
+			"obj-6::obj-1::obj-232" : [ "LFO2 Gain", "LFO2Gain", 0 ],
+			"obj-6::obj-1::obj-233" : [ "LFO1 Gain", "LFO1Gain", 0 ],
+			"obj-6::obj-1::obj-234" : [ "LFO1 Rate", "LFO1Rate", 0 ],
+			"obj-6::obj-2::obj-242" : [ "LFO5 Gain", "LFO5Gain", 0 ],
+			"obj-6::obj-2::obj-243" : [ "LFO5 Rate", "LFO5Rate", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-6::obj-2::obj-12" : 				{
-					"parameter_longname" : "Dial1"
-				}
-,
-				"obj-6::obj-2::obj-2" : 				{
-					"parameter_longname" : "Dial2"
-				}
-,
-				"obj-6::obj-5::obj-12" : 				{
-					"parameter_longname" : "Dial1[1]"
-				}
-,
-				"obj-6::obj-5::obj-13" : 				{
-					"parameter_longname" : "Dial3[1]"
-				}
-,
-				"obj-6::obj-5::obj-14" : 				{
-					"parameter_longname" : "Dial4[1]"
-				}
-,
-				"obj-6::obj-5::obj-15" : 				{
-					"parameter_longname" : "Dial8[1]"
-				}
-,
-				"obj-6::obj-5::obj-16" : 				{
-					"parameter_longname" : "Dial7[1]"
-				}
-,
-				"obj-6::obj-5::obj-17" : 				{
-					"parameter_longname" : "Dial5[1]"
-				}
-,
-				"obj-6::obj-5::obj-18" : 				{
-					"parameter_longname" : "Dial6[1]"
-				}
-,
-				"obj-6::obj-5::obj-2" : 				{
-					"parameter_longname" : "Dial2[1]"
-				}
 
 			}
 ,
@@ -461,21 +417,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_pages_LFO.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hs_tab_page_LFO2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_LFO1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hs_tab_page_LFO2.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

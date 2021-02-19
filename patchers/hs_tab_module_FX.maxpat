@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hs_tab_pages_FX.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 97.0, 81.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -253,29 +275,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hs_tab_pages_FX.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 34.0, 101.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
-					"varname" : "ModuleDisplay",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -294,6 +293,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Pre/Post", "Del/Rev" ],
+							"parameter_invisible" : 1,
 							"parameter_longname" : "live.tab",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
@@ -399,58 +399,21 @@
  ],
 		"parameters" : 		{
 			"obj-2" : [ "live.tab", "live.tab", 0 ],
-			"obj-6::obj-2::obj-12" : [ "Dial1", "Dial1", 0 ],
-			"obj-6::obj-2::obj-13" : [ "Dial3", "Dial3", 0 ],
-			"obj-6::obj-2::obj-14" : [ "Dial4", "Dial4", 0 ],
-			"obj-6::obj-2::obj-15" : [ "Dial8", "Dial8", 0 ],
-			"obj-6::obj-2::obj-16" : [ "Dial7", "Dial7", 0 ],
-			"obj-6::obj-2::obj-17" : [ "Dial5", "Dial5", 0 ],
-			"obj-6::obj-2::obj-18" : [ "Dial6", "Dial6", 0 ],
-			"obj-6::obj-2::obj-2" : [ "Dial2", "Dial2", 0 ],
-			"obj-6::obj-5::obj-12" : [ "Dial1[1]", "Freq", 0 ],
-			"obj-6::obj-5::obj-13" : [ "Dial3[1]", "Dial3", 0 ],
-			"obj-6::obj-5::obj-14" : [ "Dial4[1]", "Dial4", 0 ],
-			"obj-6::obj-5::obj-15" : [ "Dial8[1]", "Dial8", 0 ],
-			"obj-6::obj-5::obj-16" : [ "Dial7[1]", "Dial7", 0 ],
-			"obj-6::obj-5::obj-17" : [ "Dial5[1]", "Dial5", 0 ],
-			"obj-6::obj-5::obj-18" : [ "Dial6[1]", "Dial6", 0 ],
-			"obj-6::obj-5::obj-2" : [ "Dial2[1]", "Dial2", 0 ],
+			"obj-6::obj-1::obj-33" : [ "POST FX Mix", "PostMix", 0 ],
+			"obj-6::obj-1::obj-36" : [ "POST-FX Param1", "PostParam1", 0 ],
+			"obj-6::obj-1::obj-40" : [ "POST-FX Param2", "PostParam2", 0 ],
+			"obj-6::obj-1::obj-42" : [ "PRE-FX Mix", "PreMix", 0 ],
+			"obj-6::obj-1::obj-43" : [ "PRE-FX Param1", "PreParam1", 0 ],
+			"obj-6::obj-1::obj-44" : [ "PRE-FX Param2", "PreParam2", 0 ],
+			"obj-6::obj-2::obj-73" : [ "Reverb Dry/Wet", "RevMix", 0 ],
+			"obj-6::obj-2::obj-74" : [ "Reverb Tone", "RevTone", 0 ],
+			"obj-6::obj-2::obj-75" : [ "Reverb Predelay", "RevPredelay", 0 ],
+			"obj-6::obj-2::obj-76" : [ "Reverb Time", "RevTime", 0 ],
+			"obj-6::obj-2::obj-77" : [ "Delay Dry/Wet", "DelMix", 0 ],
+			"obj-6::obj-2::obj-78" : [ "Delay Wet tone", "DelWetTone", 0 ],
+			"obj-6::obj-2::obj-79" : [ "Delay Feedback", "DelFeedback", 0 ],
+			"obj-6::obj-2::obj-80" : [ "Delay Time", "DelTime", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-6::obj-5::obj-12" : 				{
-					"parameter_longname" : "Dial1[1]"
-				}
-,
-				"obj-6::obj-5::obj-13" : 				{
-					"parameter_longname" : "Dial3[1]"
-				}
-,
-				"obj-6::obj-5::obj-14" : 				{
-					"parameter_longname" : "Dial4[1]"
-				}
-,
-				"obj-6::obj-5::obj-15" : 				{
-					"parameter_longname" : "Dial8[1]"
-				}
-,
-				"obj-6::obj-5::obj-16" : 				{
-					"parameter_longname" : "Dial7[1]"
-				}
-,
-				"obj-6::obj-5::obj-17" : 				{
-					"parameter_longname" : "Dial5[1]"
-				}
-,
-				"obj-6::obj-5::obj-18" : 				{
-					"parameter_longname" : "Dial6[1]"
-				}
-,
-				"obj-6::obj-5::obj-2" : 				{
-					"parameter_longname" : "Dial2[1]"
-				}
 
 			}
 ,
@@ -459,21 +422,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_pages_FX.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hs_tab_page2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"name" : "hs_tab_page_FX1.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hs_tab_page1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"name" : "hs_tab_page_FX2.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

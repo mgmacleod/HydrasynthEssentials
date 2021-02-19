@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hs_tab_pages_MIXER.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 73.0, 95.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -252,29 +274,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hs_tab_pages_MIXER.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 34.0, 101.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
-					"varname" : "ModuleDisplay",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -399,90 +398,23 @@
  ],
 		"parameters" : 		{
 			"obj-2" : [ "live.tab", "live.tab", 0 ],
-			"obj-6::obj-2::obj-12" : [ "Dial1", "RngMdVol", 0 ],
-			"obj-6::obj-2::obj-13" : [ "Dial3", "OSC1FilRat", 0 ],
-			"obj-6::obj-2::obj-14" : [ "Dial4", "OSC2FilRat", 0 ],
-			"obj-6::obj-2::obj-15" : [ "Dial8", "RM12Depth", 0 ],
-			"obj-6::obj-2::obj-16" : [ "Dial7", "RngMdFRat", 0 ],
-			"obj-6::obj-2::obj-17" : [ "Dial5", "OSC3FilRat", 0 ],
-			"obj-6::obj-2::obj-18" : [ "Dial6", "NoiseFRat", 0 ],
-			"obj-6::obj-2::obj-2" : [ "Dial2", "RngMdPan", 0 ],
-			"obj-6::obj-5::obj-12" : [ "Dial1[1]", "OSC1Vol", 0 ],
-			"obj-6::obj-5::obj-13" : [ "Dial3[1]", "OSC2Vol", 0 ],
-			"obj-6::obj-5::obj-14" : [ "Dial4[1]", "OSC2Pan", 0 ],
-			"obj-6::obj-5::obj-15" : [ "Dial8[1]", "NoisePan", 0 ],
-			"obj-6::obj-5::obj-16" : [ "Dial7[1]", "NoiseVol", 0 ],
-			"obj-6::obj-5::obj-17" : [ "Dial5[1]", "OSC3Vol", 0 ],
-			"obj-6::obj-5::obj-18" : [ "Dial6[1]", "OSC3Pan", 0 ],
-			"obj-6::obj-5::obj-2" : [ "Dial2[1]", "OSC1Pan", 0 ],
+			"obj-6::obj-1::obj-310" : [ "Noise Pan", "NoisePan", 0 ],
+			"obj-6::obj-1::obj-311" : [ "Noise Volume", "NoiseVol", 0 ],
+			"obj-6::obj-1::obj-312" : [ "OSC3 Volume", "OSC3Vol", 0 ],
+			"obj-6::obj-1::obj-313" : [ "OSC3 Pan", "OSC3Pan", 0 ],
+			"obj-6::obj-1::obj-314" : [ "OSC2 Pan", "OSC2Pan", 0 ],
+			"obj-6::obj-1::obj-315" : [ "OSC2 Volume", "OSC2Vol", 0 ],
+			"obj-6::obj-1::obj-316" : [ "OSC1 Volume", "OSC1Vol", 0 ],
+			"obj-6::obj-1::obj-317" : [ "OSC1 Pan", "OSC1Pan", 0 ],
+			"obj-6::obj-2::obj-345" : [ "RM12 Depth", "RM12Depth", 0 ],
+			"obj-6::obj-2::obj-346" : [ "Ring Mod Filter Ratio", "RngMdFRat", 0 ],
+			"obj-6::obj-2::obj-347" : [ "OSC 3 Filter Ratio", "OSC3FilRat", 0 ],
+			"obj-6::obj-2::obj-348" : [ "Noise Filter Ratio", "NoiseFRat", 0 ],
+			"obj-6::obj-2::obj-349" : [ "OSC2 Filter Ratio", "OSC2FilRat", 0 ],
+			"obj-6::obj-2::obj-350" : [ "OSC1 Filter Ratio", "OSC1FilRat", 0 ],
+			"obj-6::obj-2::obj-351" : [ "Ring Mod Volume", "RngMdVol", 0 ],
+			"obj-6::obj-2::obj-352" : [ "Ring Mod Pan", "RngMdPan", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-6::obj-2::obj-12" : 				{
-					"parameter_longname" : "Dial1"
-				}
-,
-				"obj-6::obj-2::obj-13" : 				{
-					"parameter_longname" : "Dial3"
-				}
-,
-				"obj-6::obj-2::obj-14" : 				{
-					"parameter_longname" : "Dial4"
-				}
-,
-				"obj-6::obj-2::obj-15" : 				{
-					"parameter_longname" : "Dial8"
-				}
-,
-				"obj-6::obj-2::obj-16" : 				{
-					"parameter_longname" : "Dial7"
-				}
-,
-				"obj-6::obj-2::obj-17" : 				{
-					"parameter_longname" : "Dial5"
-				}
-,
-				"obj-6::obj-2::obj-18" : 				{
-					"parameter_longname" : "Dial6"
-				}
-,
-				"obj-6::obj-2::obj-2" : 				{
-					"parameter_longname" : "Dial2"
-				}
-,
-				"obj-6::obj-5::obj-12" : 				{
-					"parameter_longname" : "Dial1[1]"
-				}
-,
-				"obj-6::obj-5::obj-13" : 				{
-					"parameter_longname" : "Dial3[1]"
-				}
-,
-				"obj-6::obj-5::obj-14" : 				{
-					"parameter_longname" : "Dial4[1]"
-				}
-,
-				"obj-6::obj-5::obj-15" : 				{
-					"parameter_longname" : "Dial8[1]"
-				}
-,
-				"obj-6::obj-5::obj-16" : 				{
-					"parameter_longname" : "Dial7[1]"
-				}
-,
-				"obj-6::obj-5::obj-17" : 				{
-					"parameter_longname" : "Dial5[1]"
-				}
-,
-				"obj-6::obj-5::obj-18" : 				{
-					"parameter_longname" : "Dial6[1]"
-				}
-,
-				"obj-6::obj-5::obj-2" : 				{
-					"parameter_longname" : "Dial2[1]"
-				}
 
 			}
 ,
@@ -491,21 +423,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_pages_MIXER.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hs_tab_page_MIX2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_MIX1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hs_tab_page_MIX2.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

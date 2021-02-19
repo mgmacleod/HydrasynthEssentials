@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 872.0, 596.0 ],
+		"rect" : [ 59.0, 107.0, 423.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,28 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-7",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hs_tab_pages_ENV.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 61.0, 87.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -252,29 +274,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hs_tab_pages_ENV.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 34.0, 101.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
-					"varname" : "ModuleDisplay",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -377,7 +376,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -385,7 +384,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -399,110 +398,27 @@
  ],
 		"parameters" : 		{
 			"obj-2" : [ "live.tab", "live.tab", 0 ],
-			"obj-6::obj-1::obj-12" : [ "ENV1 Attack", "E5Attack", 0 ],
-			"obj-6::obj-1::obj-13" : [ "ENV1 Sustain", "E5Sustain", 0 ],
-			"obj-6::obj-1::obj-14" : [ "ENV1 Release", "E5Release", 0 ],
-			"obj-6::obj-1::obj-2" : [ "ENV1 Decay", "E5Decay", 0 ],
-			"obj-6::obj-2::obj-12" : [ "Dial1", "E3Attack", 0 ],
-			"obj-6::obj-2::obj-13" : [ "Dial3", "E3Sustain", 0 ],
-			"obj-6::obj-2::obj-14" : [ "Dial4", "E3Release", 0 ],
-			"obj-6::obj-2::obj-15" : [ "Dial8", "E4Release", 0 ],
-			"obj-6::obj-2::obj-16" : [ "Dial7", "E4Sustain", 0 ],
-			"obj-6::obj-2::obj-17" : [ "Dial5", "E4Attack", 0 ],
-			"obj-6::obj-2::obj-18" : [ "Dial6", "E4Decay", 0 ],
-			"obj-6::obj-2::obj-2" : [ "Dial2", "E3Decay", 0 ],
-			"obj-6::obj-5::obj-12" : [ "Dial1[1]", "E1Attack", 0 ],
-			"obj-6::obj-5::obj-13" : [ "Dial3[1]", "E1Sustain", 0 ],
-			"obj-6::obj-5::obj-14" : [ "Dial4[1]", "E1Release", 0 ],
-			"obj-6::obj-5::obj-15" : [ "Dial8[1]", "E2Release", 0 ],
-			"obj-6::obj-5::obj-16" : [ "Dial7[1]", "E2Sustain", 0 ],
-			"obj-6::obj-5::obj-17" : [ "Dial5[1]", "E2Attack", 0 ],
-			"obj-6::obj-5::obj-18" : [ "Dial6[1]", "E2Decay", 0 ],
-			"obj-6::obj-5::obj-2" : [ "Dial2[1]", "E1Decay", 0 ],
+			"obj-7::obj-1::obj-43" : [ "ENV2 Release", "E2Release", 0 ],
+			"obj-7::obj-1::obj-44" : [ "ENV2 Sustain", "E2Sustain", 0 ],
+			"obj-7::obj-1::obj-45" : [ "ENV2 Attack", "E2Attack", 0 ],
+			"obj-7::obj-1::obj-46" : [ "ENV2 Decay", "E2Decay", 0 ],
+			"obj-7::obj-1::obj-47" : [ "ENV1 Release", "E1Release", 0 ],
+			"obj-7::obj-1::obj-48" : [ "ENV1 Sustain", "E1Sustain", 0 ],
+			"obj-7::obj-1::obj-49" : [ "ENV1 Attack", "E1Attack", 0 ],
+			"obj-7::obj-1::obj-50" : [ "ENV1 Decay", "E1Decay", 0 ],
+			"obj-7::obj-2::obj-101" : [ "ENV4 Release", "E4Release", 0 ],
+			"obj-7::obj-2::obj-102" : [ "ENV4 Sustain", "E4Sustain", 0 ],
+			"obj-7::obj-2::obj-103" : [ "ENV4 Attack", "E4Attack", 0 ],
+			"obj-7::obj-2::obj-104" : [ "ENV4 Decay", "E4Decay", 0 ],
+			"obj-7::obj-2::obj-105" : [ "ENV3 Release", "E3Release", 0 ],
+			"obj-7::obj-2::obj-106" : [ "ENV3 Sustain", "E3Sustain", 0 ],
+			"obj-7::obj-2::obj-107" : [ "ENV3 Attack", "E3Attack", 0 ],
+			"obj-7::obj-2::obj-108" : [ "ENV3 Decay", "E3Decay", 0 ],
+			"obj-7::obj-5::obj-124" : [ "ENV5 Release", "E5Release", 0 ],
+			"obj-7::obj-5::obj-125" : [ "ENV5 Sustain", "E5Sustain", 0 ],
+			"obj-7::obj-5::obj-126" : [ "ENV5 Attack", "E5Attack", 0 ],
+			"obj-7::obj-5::obj-127" : [ "ENV5 Decay", "E5Decay", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-6::obj-1::obj-12" : 				{
-					"parameter_longname" : "ENV1 Attack"
-				}
-,
-				"obj-6::obj-1::obj-13" : 				{
-					"parameter_longname" : "ENV1 Sustain"
-				}
-,
-				"obj-6::obj-1::obj-14" : 				{
-					"parameter_longname" : "ENV1 Release"
-				}
-,
-				"obj-6::obj-1::obj-2" : 				{
-					"parameter_longname" : "ENV1 Decay"
-				}
-,
-				"obj-6::obj-2::obj-12" : 				{
-					"parameter_longname" : "Dial1"
-				}
-,
-				"obj-6::obj-2::obj-13" : 				{
-					"parameter_longname" : "Dial3"
-				}
-,
-				"obj-6::obj-2::obj-14" : 				{
-					"parameter_longname" : "Dial4"
-				}
-,
-				"obj-6::obj-2::obj-15" : 				{
-					"parameter_longname" : "Dial8"
-				}
-,
-				"obj-6::obj-2::obj-16" : 				{
-					"parameter_longname" : "Dial7"
-				}
-,
-				"obj-6::obj-2::obj-17" : 				{
-					"parameter_longname" : "Dial5"
-				}
-,
-				"obj-6::obj-2::obj-18" : 				{
-					"parameter_longname" : "Dial6"
-				}
-,
-				"obj-6::obj-2::obj-2" : 				{
-					"parameter_longname" : "Dial2"
-				}
-,
-				"obj-6::obj-5::obj-12" : 				{
-					"parameter_longname" : "Dial1[1]"
-				}
-,
-				"obj-6::obj-5::obj-13" : 				{
-					"parameter_longname" : "Dial3[1]"
-				}
-,
-				"obj-6::obj-5::obj-14" : 				{
-					"parameter_longname" : "Dial4[1]"
-				}
-,
-				"obj-6::obj-5::obj-15" : 				{
-					"parameter_longname" : "Dial8[1]"
-				}
-,
-				"obj-6::obj-5::obj-16" : 				{
-					"parameter_longname" : "Dial7[1]"
-				}
-,
-				"obj-6::obj-5::obj-17" : 				{
-					"parameter_longname" : "Dial5[1]"
-				}
-,
-				"obj-6::obj-5::obj-18" : 				{
-					"parameter_longname" : "Dial6[1]"
-				}
-,
-				"obj-6::obj-5::obj-2" : 				{
-					"parameter_longname" : "Dial2[1]"
-				}
 
 			}
 ,
@@ -511,28 +427,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_pages_ENV.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hs_tab_page_ENV2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_ENV1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hs_tab_page_ENV2.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_ENV3.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
