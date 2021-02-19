@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1527.0, 913.0 ],
+		"rect" : [ 301.0, 136.0, 934.0, 551.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-1",
+					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "hs_tab_page_ENV3.maxpat",
@@ -53,31 +53,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 692.0, 105.0, 267.0, 136.0 ],
+					"patching_rect" : [ 667.0, 122.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 550.0, 0.0, 265.0, 134.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-5",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hs_tab_page_ENV1.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 103.0, 105.0, 266.0, 136.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 265.0, 134.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -97,9 +75,31 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 401.0, 105.0, 267.0, 136.0 ],
+					"patching_rect" : [ 468.0, 122.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 275.0, 0.0, 265.0, 134.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hs_tab_page_ENV1.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 251.0, 122.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 265.0, 134.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -155,7 +155,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -163,7 +163,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -177,94 +177,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-12" : [ "ENV3 Attack", "E5Attack", 0 ],
-			"obj-1::obj-13" : [ "ENV3 Sustain", "E5Sustain", 0 ],
-			"obj-1::obj-14" : [ "ENV3 Release", "E5Release", 0 ],
-			"obj-1::obj-2" : [ "ENV3 Decay", "E5Decay", 0 ],
-			"obj-2::obj-12" : [ "ENV3 Attack[1]", "E3Attack", 0 ],
-			"obj-2::obj-13" : [ "ENV3 Sustain[1]", "E3Sustain", 0 ],
-			"obj-2::obj-14" : [ "ENV3 Release[1]", "E3Release", 0 ],
-			"obj-2::obj-15" : [ "ENV4 Release", "E4Release", 0 ],
-			"obj-2::obj-16" : [ "ENV4 Sustain", "E4Sustain", 0 ],
-			"obj-2::obj-17" : [ "ENV4 Attack", "E4Attack", 0 ],
-			"obj-2::obj-18" : [ "ENV4 Decay", "E4Decay", 0 ],
-			"obj-2::obj-2" : [ "ENV3 Decay[1]", "E3Decay", 0 ],
-			"obj-5::obj-12" : [ "Dial1", "E1Attack", 0 ],
-			"obj-5::obj-13" : [ "Dial3", "E1Sustain", 0 ],
-			"obj-5::obj-14" : [ "Dial4", "E1Release", 0 ],
-			"obj-5::obj-2" : [ "Dial2", "E1Decay", 0 ],
-			"obj-5::obj-28" : [ "ENV1 Release[1]", "E2Release", 0 ],
-			"obj-5::obj-29" : [ "ENV1 Sustain[1]", "E2Sustain", 0 ],
-			"obj-5::obj-30" : [ "ENV1 Attack[1]", "E2Attack", 0 ],
-			"obj-5::obj-31" : [ "ENV1 Decay[1]", "E2Decay", 0 ],
+			"obj-1::obj-43" : [ "ENV2 Release", "E2Release", 0 ],
+			"obj-1::obj-44" : [ "ENV2 Sustain", "E2Sustain", 0 ],
+			"obj-1::obj-45" : [ "ENV2 Attack", "E2Attack", 0 ],
+			"obj-1::obj-46" : [ "ENV2 Decay", "E2Decay", 0 ],
+			"obj-1::obj-47" : [ "ENV1 Release", "E1Release", 0 ],
+			"obj-1::obj-48" : [ "ENV1 Sustain", "E1Sustain", 0 ],
+			"obj-1::obj-49" : [ "ENV1 Attack", "E1Attack", 0 ],
+			"obj-1::obj-50" : [ "ENV1 Decay", "E1Decay", 0 ],
+			"obj-2::obj-101" : [ "ENV4 Release", "E4Release", 0 ],
+			"obj-2::obj-102" : [ "ENV4 Sustain", "E4Sustain", 0 ],
+			"obj-2::obj-103" : [ "ENV4 Attack", "E4Attack", 0 ],
+			"obj-2::obj-104" : [ "ENV4 Decay", "E4Decay", 0 ],
+			"obj-2::obj-105" : [ "ENV3 Release", "E3Release", 0 ],
+			"obj-2::obj-106" : [ "ENV3 Sustain", "E3Sustain", 0 ],
+			"obj-2::obj-107" : [ "ENV3 Attack", "E3Attack", 0 ],
+			"obj-2::obj-108" : [ "ENV3 Decay", "E3Decay", 0 ],
+			"obj-5::obj-124" : [ "ENV5 Release", "E5Release", 0 ],
+			"obj-5::obj-125" : [ "ENV5 Sustain", "E5Sustain", 0 ],
+			"obj-5::obj-126" : [ "ENV5 Attack", "E5Attack", 0 ],
+			"obj-5::obj-127" : [ "ENV5 Decay", "E5Decay", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-12" : 				{
-					"parameter_longname" : "ENV3 Attack"
-				}
-,
-				"obj-1::obj-13" : 				{
-					"parameter_longname" : "ENV3 Sustain"
-				}
-,
-				"obj-1::obj-14" : 				{
-					"parameter_longname" : "ENV3 Release"
-				}
-,
-				"obj-1::obj-2" : 				{
-					"parameter_longname" : "ENV3 Decay"
-				}
-,
-				"obj-2::obj-12" : 				{
-					"parameter_longname" : "ENV3 Attack[1]"
-				}
-,
-				"obj-2::obj-13" : 				{
-					"parameter_longname" : "ENV3 Sustain[1]"
-				}
-,
-				"obj-2::obj-14" : 				{
-					"parameter_longname" : "ENV3 Release[1]"
-				}
-,
-				"obj-2::obj-2" : 				{
-					"parameter_longname" : "ENV3 Decay[1]"
-				}
-,
-				"obj-5::obj-12" : 				{
-					"parameter_longname" : "Dial1"
-				}
-,
-				"obj-5::obj-13" : 				{
-					"parameter_longname" : "Dial3"
-				}
-,
-				"obj-5::obj-14" : 				{
-					"parameter_longname" : "Dial4"
-				}
-,
-				"obj-5::obj-2" : 				{
-					"parameter_longname" : "Dial2"
-				}
-,
-				"obj-5::obj-28" : 				{
-					"parameter_longname" : "ENV1 Release[1]"
-				}
-,
-				"obj-5::obj-29" : 				{
-					"parameter_longname" : "ENV1 Sustain[1]"
-				}
-,
-				"obj-5::obj-30" : 				{
-					"parameter_longname" : "ENV1 Attack[1]"
-				}
-,
-				"obj-5::obj-31" : 				{
-					"parameter_longname" : "ENV1 Decay[1]"
-				}
 
 			}
 ,
@@ -272,22 +205,22 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "hs_tab_page_ENV2.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
+				"name" : "hs_tab_page_ENV1.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hs_tab_page_ENV1.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
+				"name" : "hs_tab_page_ENV2.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_ENV3.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

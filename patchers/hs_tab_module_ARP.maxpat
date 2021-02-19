@@ -53,10 +53,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 34.0, 101.0, 128.0, 128.0 ],
+					"patching_rect" : [ 72.0, 95.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
-					"varname" : "ModuleDisplay",
 					"viewvisibility" : 1
 				}
 
@@ -155,7 +154,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_page_ARPa.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

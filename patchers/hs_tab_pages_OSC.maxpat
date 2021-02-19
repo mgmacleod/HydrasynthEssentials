@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1530.0, 929.0 ],
+		"rect" : [ 148.0, 230.0, 702.0, 402.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,17 +45,17 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-5",
+					"id" : "obj-6",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "hs_tab_page_OSC1.maxpat",
+					"name" : "hs_tab_page_OSC2.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 103.0, 105.0, 266.0, 136.0 ],
+					"patching_rect" : [ 297.0, 86.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 265.0, 134.0 ],
+					"presentation_rect" : [ 275.0, 0.0, 265.0, 134.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -67,17 +67,17 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-2",
+					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "hs_tab_page_OSC2.maxpat",
+					"name" : "hs_tab_page_OSC1.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 401.0, 105.0, 267.0, 136.0 ],
+					"patching_rect" : [ 45.0, 86.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 0.0, 265.0, 134.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 265.0, 134.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -110,23 +110,16 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-6", 0 ],
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -138,82 +131,30 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-2::obj-12" : [ "Dial1[1]", "OSC2wavscn", 0 ],
-			"obj-2::obj-13" : [ "Dial3[1]", "Mut3Depth", 0 ],
-			"obj-2::obj-14" : [ "Dial4[1]", "Mut3Mix", 0 ],
-			"obj-2::obj-15" : [ "Dial8[1]", "Mut4Mix", 0 ],
-			"obj-2::obj-16" : [ "Dial7[1]", "Mut4Depth", 0 ],
-			"obj-2::obj-18" : [ "Dial6[1]", "Mut4Ratio", 0 ],
-			"obj-2::obj-2" : [ "Dial2[1]", "Mut3Ratio", 0 ],
-			"obj-5::obj-12" : [ "Dial1", "OSC1wavscn", 0 ],
-			"obj-5::obj-13" : [ "Dial3", "Mut1Depth", 0 ],
-			"obj-5::obj-14" : [ "Dial4", "Mut1Mix", 0 ],
-			"obj-5::obj-16" : [ "Dial7", "Mut2Mix", 0 ],
-			"obj-5::obj-17" : [ "Dial5", "Mut2Ratio", 0 ],
-			"obj-5::obj-18" : [ "Dial6", "Mut2Depth", 0 ],
-			"obj-5::obj-2" : [ "Dial2", "Mut1Ratio", 0 ],
-			"parameterbanks" : 			{
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
 
 			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-12" : 				{
-					"parameter_longname" : "Dial1[1]"
-				}
-,
-				"obj-2::obj-13" : 				{
-					"parameter_longname" : "Dial3[1]"
-				}
-,
-				"obj-2::obj-14" : 				{
-					"parameter_longname" : "Dial4[1]"
-				}
-,
-				"obj-2::obj-15" : 				{
-					"parameter_longname" : "Dial8[1]"
-				}
-,
-				"obj-2::obj-16" : 				{
-					"parameter_longname" : "Dial7[1]"
-				}
-,
-				"obj-2::obj-18" : 				{
-					"parameter_longname" : "Dial6[1]"
-				}
-,
-				"obj-2::obj-2" : 				{
-					"parameter_longname" : "Dial2[1]"
-				}
-,
-				"obj-5::obj-12" : 				{
-					"parameter_longname" : "Dial1"
-				}
-,
-				"obj-5::obj-13" : 				{
-					"parameter_longname" : "Dial3"
-				}
-,
-				"obj-5::obj-14" : 				{
-					"parameter_longname" : "Dial4"
-				}
-,
-				"obj-5::obj-16" : 				{
-					"parameter_longname" : "Dial7"
-				}
-,
-				"obj-5::obj-17" : 				{
-					"parameter_longname" : "Dial5"
-				}
-,
-				"obj-5::obj-18" : 				{
-					"parameter_longname" : "Dial6"
-				}
-,
-				"obj-5::obj-2" : 				{
-					"parameter_longname" : "Dial2"
-				}
+ ],
+		"parameters" : 		{
+			"obj-5::obj-375" : [ "Mutator2 Dry/Wet", "Mut2Mix", 0 ],
+			"obj-5::obj-376" : [ "Mutator2 Ratio", "Mut2Ratio", 0 ],
+			"obj-5::obj-377" : [ "Mutator2 Depth", "Mut2Depth", 0 ],
+			"obj-5::obj-378" : [ "Mutator1 Dry/Wet", "Mut1Mix", 0 ],
+			"obj-5::obj-379" : [ "Mutator1 Depth", "Mut1Depth", 0 ],
+			"obj-5::obj-380" : [ "OSC1 wavscan", "OSC1wavscn", 0 ],
+			"obj-5::obj-381" : [ "Mutant1 Ratio", "Mut1Ratio", 0 ],
+			"obj-6::obj-404" : [ "Mutator4 Dry/Wet", "Mut4Mix", 0 ],
+			"obj-6::obj-405" : [ "Mutator4 Depth", "Mut4Depth", 0 ],
+			"obj-6::obj-406" : [ "Mutator4 Ratio", "Mut4Ratio", 0 ],
+			"obj-6::obj-407" : [ "Mutator3 Dry/Wet", "Mut3Mix", 0 ],
+			"obj-6::obj-408" : [ "Mutator3 Depth", "Mut3Depth", 0 ],
+			"obj-6::obj-409" : [ "OSC2 WavScan", "OSC2wavscn", 0 ],
+			"obj-6::obj-410" : [ "Mutator3 Ratio", "Mut3Ratio", 0 ],
+			"parameterbanks" : 			{
 
 			}
 ,
@@ -221,15 +162,15 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "hs_tab_page_OSC2.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
+				"name" : "hs_tab_page_OSC1.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hs_tab_page_OSC1.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
+				"name" : "hs_tab_page_OSC2.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

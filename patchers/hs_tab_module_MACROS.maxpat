@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hs_tab_page_Macros.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 84.0, 79.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -253,29 +275,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hs_tab_page_Macros.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 34.0, 101.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
-					"varname" : "ModuleDisplay",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-1",
@@ -337,15 +336,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-4", 0 ]
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -358,14 +357,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6::obj-12" : [ "Dial1", "Freq", 0 ],
-			"obj-6::obj-13" : [ "Dial3", "Dial3", 0 ],
-			"obj-6::obj-14" : [ "Dial4", "Dial4", 0 ],
-			"obj-6::obj-15" : [ "Dial8", "Dial8", 0 ],
-			"obj-6::obj-16" : [ "Dial7", "Dial7", 0 ],
-			"obj-6::obj-17" : [ "Dial5", "Dial5", 0 ],
-			"obj-6::obj-18" : [ "Dial6", "Dial6", 0 ],
-			"obj-6::obj-2" : [ "Dial2", "Dial2", 0 ],
+			"obj-2::obj-269" : [ "Macro 8", "Macro8", 0 ],
+			"obj-2::obj-270" : [ "Macro 7", "Macro7", 0 ],
+			"obj-2::obj-271" : [ "Macro 5", "Macro5", 0 ],
+			"obj-2::obj-272" : [ "Macro 6", "Macro6", 0 ],
+			"obj-2::obj-273" : [ "Macro 4", "Macro4", 0 ],
+			"obj-2::obj-274" : [ "Macro 3", "Macro3", 0 ],
+			"obj-2::obj-275" : [ "Macro 1", "Macro1", 0 ],
+			"obj-2::obj-276" : [ "Macro 2", "Macro2", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -375,7 +374,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_page_Macros.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
