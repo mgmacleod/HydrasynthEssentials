@@ -354,6 +354,8 @@
 					"presentation_rect" : [ 132.0, 11.0, 64.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 32 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Detune",
 							"parameter_shortname" : "Detune",
 							"parameter_type" : 1,
@@ -668,7 +670,8 @@
 		}
 ,
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"editing_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
 }

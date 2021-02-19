@@ -1001,6 +1001,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1/1", "1/2", "1/4", "1/8", "1/16", "1/32", "1/1T", "1/2T", "1/4T", "1/8T", "1/16T", "1/32T" ],
+							"parameter_initial" : [ 4 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "ARP Division",
 							"parameter_mmax" : 11,
 							"parameter_shortname" : "ArpDivision",
@@ -1354,7 +1356,8 @@
 		}
 ,
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"editing_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
 }

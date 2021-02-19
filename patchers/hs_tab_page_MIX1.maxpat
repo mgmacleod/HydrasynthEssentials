@@ -670,6 +670,8 @@
 					"presentation_rect" : [ 0.0, 11.0, 64.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 8192.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "OSC1 Volume",
 							"parameter_mmax" : 8192.0,
 							"parameter_shortname" : "OSC1Vol",
@@ -1117,7 +1119,8 @@
 		}
 ,
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"editing_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
 }
