@@ -459,21 +459,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_pages_FX.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

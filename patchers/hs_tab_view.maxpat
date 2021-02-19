@@ -1023,231 +1023,231 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hs_tab_module_OSC.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_pages_OSC.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_OSC2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_OSC1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_MIXER.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_pages_MIXER.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_MIX2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_MIX1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_FILTER.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_pages_FILTER.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_Filt2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_Filt1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_ENV.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_pages_ENV.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_ENV2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_ENV1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_ENV3.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_LFO.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_pages_LFO.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_LFO2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_LFO1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_FX.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_pages_FX.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_FX2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_FX1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_ARP.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_ARP.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_VOICE.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page_Voice.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_module_MACROS.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_pages.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page2.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hs_tab_page1.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Library/HydrasynthEssentials",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
