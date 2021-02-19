@@ -56,6 +56,7 @@
 					"patching_rect" : [ 124.0, 115.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 34.0, 265.0, 134.0 ],
+					"varname" : "ModuleDisplay",
 					"viewvisibility" : 1
 				}
 
