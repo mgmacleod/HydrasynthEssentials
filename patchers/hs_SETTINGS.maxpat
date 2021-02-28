@@ -57,8 +57,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 41.0, 67.0, 22.0 ],
-					"text" : "r loadBang"
+					"patching_rect" : [ 264.0, 41.0, 79.0, 22.0 ],
+					"text" : "r ---loadBang"
 				}
 
 			}
@@ -68,8 +68,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 149.5, 95.0, 22.0 ],
-					"text" : "s progChgDelay"
+					"patching_rect" : [ 420.0, 149.5, 107.0, 22.0 ],
+					"text" : "s ---progChgDelay"
 				}
 
 			}
@@ -79,8 +79,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 268.0, 82.0, 22.0 ],
-					"text" : "s bypassGate"
+					"patching_rect" : [ 420.0, 268.0, 94.0, 22.0 ],
+					"text" : "s ---bypassGate"
 				}
 
 			}
@@ -90,8 +90,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 225.0, 98.0, 22.0 ],
-					"text" : "s ctlChangeJitter"
+					"patching_rect" : [ 420.0, 225.0, 110.0, 22.0 ],
+					"text" : "s ---ctlChangeJitter"
 				}
 
 			}
@@ -101,8 +101,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 184.0, 103.0, 22.0 ],
-					"text" : "s ctlChangeDelay"
+					"patching_rect" : [ 420.0, 184.0, 115.0, 22.0 ],
+					"text" : "s ---ctlChangeDelay"
 				}
 
 			}
