@@ -44,8 +44,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.0, 263.0, 78.0, 22.0 ],
-					"text" : "s closeGates"
+					"patching_rect" : [ 384.0, 263.0, 90.0, 22.0 ],
+					"text" : "s ---closeGates"
 				}
 
 			}
@@ -56,8 +56,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 323.0, 67.0, 22.0 ],
-					"text" : "r loadBang"
+					"patching_rect" : [ 17.0, 323.0, 79.0, 22.0 ],
+					"text" : "r ---loadBang"
 				}
 
 			}
@@ -68,8 +68,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 367.0, 323.0, 95.0, 22.0 ],
-					"text" : "r progChgDelay"
+					"patching_rect" : [ 367.0, 323.0, 105.0, 22.0 ],
+					"text" : "r ---progChgDelay"
 				}
 
 			}
