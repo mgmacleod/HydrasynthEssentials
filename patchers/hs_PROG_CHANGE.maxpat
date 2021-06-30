@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 272.0, 227.0, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -95,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "bang" ],
-					"patching_rect" : [ 254.0, 200.0, 54.166666666666515, 22.0 ],
+					"patching_rect" : [ 256.0, 156.0, 54.166666666666515, 22.0 ],
 					"text" : "t i i b"
 				}
 
@@ -240,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 254.0, 159.0, 41.0, 22.0 ],
+					"patching_rect" : [ 256.0, 115.0, 41.0, 22.0 ],
 					"text" : "pgmin"
 				}
 
@@ -263,7 +275,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 104.0, 94.0, 18.0 ],
+					"patching_rect" : [ 176.0, 69.0, 94.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 9.5, 82.0, 18.0 ],
 					"text" : "Program Change",
@@ -404,7 +416,7 @@
 				"patchline" : 				{
 					"color" : [ 0.945098039215686, 0.913725490196078, 0.407843137254902, 1.0 ],
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 195.166666666666515, 186.0, 240.0, 186.0, 240.0, 247.0, 393.5, 247.0 ],
+					"midpoints" : [ 195.166666666666515, 186.0, 240.0, 186.0, 240.0, 206.0, 393.5, 206.0 ],
 					"source" : [ "obj-24", 2 ]
 				}
 
@@ -418,7 +430,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-25", 1 ]
 				}
 
@@ -427,8 +439,15 @@
 				"patchline" : 				{
 					"color" : [ 0.945098039215686, 0.913725490196078, 0.407843137254902, 1.0 ],
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 298.666666666666515, 238.0, 393.5, 238.0 ],
+					"midpoints" : [ 300.666666666666515, 215.0, 393.5, 215.0 ],
 					"source" : [ "obj-25", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -468,8 +487,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "gatedsignal.maxpat",
-				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers/abstractions",
-				"patcherrelativepath" : "./abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/mgm.tools/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/mgm.tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
