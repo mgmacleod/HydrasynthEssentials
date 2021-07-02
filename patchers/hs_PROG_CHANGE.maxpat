@@ -162,9 +162,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.482352941176471, 0.184313725490196, 0.0, 1.0 ],
-					"activefgdialcolor" : [ 0.407843137254902, 0.407843137254902, 0.407843137254902, 1.0 ],
-					"activeneedlecolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -184,19 +181,14 @@
 							"parameter_unitstyle" : 0
 						}
 
-					}
-,
-					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					},
 					"varname" : "Program"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
-					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-31",
-					"lcdcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 5,
 					"num_lines_presentation" : 5,

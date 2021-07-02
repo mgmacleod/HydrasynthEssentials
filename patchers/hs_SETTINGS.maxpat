@@ -123,10 +123,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"annotation" : "When disabled (grey), the values of the various parameters on-screen will have no effect on the Hydrasynth until the corresponding control is modified (moved) on the hardware.  This prevents nasty take-over effects from ruining presets on the device by sending the default values.  When enabled (orange), this MIDI gating is bypassed and nasty take-over gets nasty and takes over.  Enjoy!",
 					"id" : "obj-37",
-					"lcdcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"maxclass" : "live.toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
