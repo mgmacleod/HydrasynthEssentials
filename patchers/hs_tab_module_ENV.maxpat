@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 423.0, 596.0 ],
+		"rect" : [ 59.0, 106.0, 423.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -86,7 +86,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -275,11 +275,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-2",
-					"lcdcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
 					"num_lines_presentation" : 1,
@@ -304,41 +300,6 @@
 					}
 ,
 					"varname" : "live.tab"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"id" : "obj-1",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 433.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 265.0, 34.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-5",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 417.0, 288.0, 149.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 265.0, 168.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0
 				}
 
 			}
@@ -399,6 +360,12 @@
  ],
 		"parameters" : 		{
 			"obj-2" : [ "live.tab", "live.tab", 0 ],
+			"obj-7::obj-1::obj-13::obj-5" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-7::obj-1::obj-15::obj-5" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-7::obj-1::obj-17::obj-5" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-7::obj-1::obj-18::obj-5" : [ "live.numbox[5]", "live.numbox", 0 ],
+			"obj-7::obj-1::obj-38::obj-5" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-7::obj-1::obj-41::obj-5" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-7::obj-1::obj-43" : [ "ENV2 Release", "E2Release", 0 ],
 			"obj-7::obj-1::obj-44" : [ "ENV2 Sustain", "E2Sustain", 0 ],
 			"obj-7::obj-1::obj-45" : [ "ENV2 Attack", "E2Attack", 0 ],
@@ -407,6 +374,8 @@
 			"obj-7::obj-1::obj-48" : [ "ENV1 Sustain", "E1Sustain", 0 ],
 			"obj-7::obj-1::obj-49" : [ "ENV1 Attack", "E1Attack", 0 ],
 			"obj-7::obj-1::obj-50" : [ "ENV1 Decay", "E1Decay", 0 ],
+			"obj-7::obj-1::obj-5::obj-5" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-7::obj-1::obj-6::obj-5" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-7::obj-2::obj-101" : [ "ENV4 Release", "E4Release", 0 ],
 			"obj-7::obj-2::obj-102" : [ "ENV4 Sustain", "E4Sustain", 0 ],
 			"obj-7::obj-2::obj-103" : [ "ENV4 Attack", "E4Attack", 0 ],
@@ -415,11 +384,102 @@
 			"obj-7::obj-2::obj-106" : [ "ENV3 Sustain", "E3Sustain", 0 ],
 			"obj-7::obj-2::obj-107" : [ "ENV3 Attack", "E3Attack", 0 ],
 			"obj-7::obj-2::obj-108" : [ "ENV3 Decay", "E3Decay", 0 ],
+			"obj-7::obj-2::obj-13::obj-5" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-7::obj-2::obj-15::obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-7::obj-2::obj-18::obj-5" : [ "live.numbox[13]", "live.numbox", 0 ],
+			"obj-7::obj-2::obj-38::obj-5" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-7::obj-2::obj-41::obj-5" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-7::obj-2::obj-5::obj-5" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-7::obj-2::obj-6::obj-5" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-7::obj-2::obj-9::obj-5" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"obj-7::obj-5::obj-124" : [ "ENV5 Release", "E5Release", 0 ],
 			"obj-7::obj-5::obj-125" : [ "ENV5 Sustain", "E5Sustain", 0 ],
 			"obj-7::obj-5::obj-126" : [ "ENV5 Attack", "E5Attack", 0 ],
 			"obj-7::obj-5::obj-127" : [ "ENV5 Decay", "E5Decay", 0 ],
+			"obj-7::obj-5::obj-13::obj-5" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-7::obj-5::obj-5::obj-5" : [ "live.numbox[16]", "live.numbox", 0 ],
+			"obj-7::obj-5::obj-6::obj-5" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-7::obj-5::obj-9::obj-5" : [ "live.numbox[18]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-7::obj-1::obj-13::obj-5" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-7::obj-1::obj-15::obj-5" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-7::obj-1::obj-17::obj-5" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-7::obj-1::obj-18::obj-5" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-7::obj-1::obj-38::obj-5" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-7::obj-1::obj-41::obj-5" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-7::obj-1::obj-6::obj-5" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-7::obj-2::obj-13::obj-5" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-7::obj-2::obj-15::obj-5" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-7::obj-2::obj-18::obj-5" : 				{
+					"parameter_longname" : "live.numbox[13]"
+				}
+,
+				"obj-7::obj-2::obj-38::obj-5" : 				{
+					"parameter_longname" : "live.numbox[14]"
+				}
+,
+				"obj-7::obj-2::obj-41::obj-5" : 				{
+					"parameter_longname" : "live.numbox[15]"
+				}
+,
+				"obj-7::obj-2::obj-5::obj-5" : 				{
+					"parameter_longname" : "live.numbox[8]"
+				}
+,
+				"obj-7::obj-2::obj-6::obj-5" : 				{
+					"parameter_longname" : "live.numbox[9]"
+				}
+,
+				"obj-7::obj-2::obj-9::obj-5" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
+,
+				"obj-7::obj-5::obj-13::obj-5" : 				{
+					"parameter_longname" : "live.numbox[19]"
+				}
+,
+				"obj-7::obj-5::obj-5::obj-5" : 				{
+					"parameter_longname" : "live.numbox[16]"
+				}
+,
+				"obj-7::obj-5::obj-6::obj-5" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
+				"obj-7::obj-5::obj-9::obj-5" : 				{
+					"parameter_longname" : "live.numbox[18]"
+				}
 
 			}
 ,
@@ -437,6 +497,13 @@
 				"name" : "hs_tab_page_ENV1.maxpat",
 				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gatedsignal.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers/abstractions",
+				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
