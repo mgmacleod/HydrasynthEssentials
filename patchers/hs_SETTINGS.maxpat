@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 26.5, 21.0, 131.0, 22.0 ],
+					"text" : "r ---updatePanelColour"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -116,17 +128,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 103.0, 106.0, 18.0 ],
 					"text" : "Bypass Gate",
-					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"textjustification" : 2
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"annotation" : "When disabled (grey), the values of the various parameters on-screen will have no effect on the Hydrasynth until the corresponding control is modified (moved) on the hardware.  This prevents nasty take-over effects from ruining presets on the device by sending the default values.  When enabled (orange), this MIDI gating is bypassed and nasty take-over gets nasty and takes over.  Enjoy!",
 					"id" : "obj-37",
-					"lcdcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"maxclass" : "live.toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -195,7 +204,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 84.0, 106.0, 18.0 ],
 					"text" : "Control Change Jitter",
-					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -241,7 +249,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 66.0, 106.0, 18.0 ],
 					"text" : "Control Change Delay",
-					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -256,7 +263,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 48.0, 106.0, 18.0 ],
 					"text" : "Program Change Delay",
-					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -302,7 +308,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 62.0, 9.5, 54.0, 18.0 ],
 					"text" : "Settings",
-					"textcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -310,15 +315,13 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"border" : 2,
-					"bordercolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1 ],
 					"id" : "obj-20",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 9.0, 63.0, 50.0 ],
+					"patching_rect" : [ 26.5, 75.5, 63.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 178.0, 37.0 ],
 					"proportion" : 0.5,
@@ -328,6 +331,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-13", 0 ]

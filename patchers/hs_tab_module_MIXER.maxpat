@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 872.0, 596.0 ],
+		"rect" : [ 59.0, 106.0, 872.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -86,7 +86,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -275,11 +275,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-2",
-					"lcdcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
 					"num_lines_presentation" : 1,
@@ -304,41 +300,6 @@
 					}
 ,
 					"varname" : "live.tab"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"id" : "obj-1",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 433.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 265.0, 34.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-5",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 417.0, 288.0, 149.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 265.0, 168.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0
 				}
 
 			}
@@ -399,6 +360,9 @@
  ],
 		"parameters" : 		{
 			"obj-2" : [ "live.tab", "live.tab", 0 ],
+			"obj-6::obj-1::obj-13::obj-5" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-15::obj-5" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-18::obj-5" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-6::obj-1::obj-310" : [ "Noise Pan", "NoisePan", 0 ],
 			"obj-6::obj-1::obj-311" : [ "Noise Volume", "NoiseVol", 0 ],
 			"obj-6::obj-1::obj-312" : [ "OSC3 Volume", "OSC3Vol", 0 ],
@@ -407,15 +371,91 @@
 			"obj-6::obj-1::obj-315" : [ "OSC2 Volume", "OSC2Vol", 0 ],
 			"obj-6::obj-1::obj-316" : [ "OSC1 Volume", "OSC1Vol", 0 ],
 			"obj-6::obj-1::obj-317" : [ "OSC1 Pan", "OSC1Pan", 0 ],
+			"obj-6::obj-1::obj-38::obj-5" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-41::obj-5" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-5::obj-5" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-6::obj-5" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-6::obj-1::obj-9::obj-5" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-6::obj-2::obj-13::obj-5" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-6::obj-2::obj-15::obj-5" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-6::obj-2::obj-18::obj-5" : [ "live.numbox[13]", "live.numbox", 0 ],
 			"obj-6::obj-2::obj-345" : [ "RM12 Depth", "RM12Depth", 0 ],
 			"obj-6::obj-2::obj-346" : [ "Ring Mod Filter Ratio", "RngMdFRat", 0 ],
 			"obj-6::obj-2::obj-347" : [ "OSC 3 Filter Ratio", "OSC3FilRat", 0 ],
 			"obj-6::obj-2::obj-348" : [ "Noise Filter Ratio", "NoiseFRat", 0 ],
 			"obj-6::obj-2::obj-349" : [ "OSC2 Filter Ratio", "OSC2FilRat", 0 ],
-			"obj-6::obj-2::obj-350" : [ "OSC1 Filter Ratio", "OSC1FilRat", 0 ],
 			"obj-6::obj-2::obj-351" : [ "Ring Mod Volume", "RngMdVol", 0 ],
 			"obj-6::obj-2::obj-352" : [ "Ring Mod Pan", "RngMdPan", 0 ],
+			"obj-6::obj-2::obj-38::obj-5" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-6::obj-2::obj-41::obj-5" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-6::obj-2::obj-5::obj-5" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-6::obj-2::obj-6::obj-5" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-6::obj-2::obj-8" : [ "OSC1 Filter Ratio", "OSC1FilRat", 0 ],
+			"obj-6::obj-2::obj-9::obj-5" : [ "live.numbox[10]", "live.numbox", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-6::obj-1::obj-13::obj-5" : 				{
+					"parameter_longname" : "live.numbox[3]"
+				}
+,
+				"obj-6::obj-1::obj-15::obj-5" : 				{
+					"parameter_longname" : "live.numbox[4]"
+				}
+,
+				"obj-6::obj-1::obj-18::obj-5" : 				{
+					"parameter_longname" : "live.numbox[5]"
+				}
+,
+				"obj-6::obj-1::obj-38::obj-5" : 				{
+					"parameter_longname" : "live.numbox[6]"
+				}
+,
+				"obj-6::obj-1::obj-41::obj-5" : 				{
+					"parameter_longname" : "live.numbox[7]"
+				}
+,
+				"obj-6::obj-1::obj-6::obj-5" : 				{
+					"parameter_longname" : "live.numbox[1]"
+				}
+,
+				"obj-6::obj-1::obj-9::obj-5" : 				{
+					"parameter_longname" : "live.numbox[2]"
+				}
+,
+				"obj-6::obj-2::obj-13::obj-5" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-6::obj-2::obj-15::obj-5" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-6::obj-2::obj-18::obj-5" : 				{
+					"parameter_longname" : "live.numbox[13]"
+				}
+,
+				"obj-6::obj-2::obj-38::obj-5" : 				{
+					"parameter_longname" : "live.numbox[14]"
+				}
+,
+				"obj-6::obj-2::obj-41::obj-5" : 				{
+					"parameter_longname" : "live.numbox[15]"
+				}
+,
+				"obj-6::obj-2::obj-5::obj-5" : 				{
+					"parameter_longname" : "live.numbox[8]"
+				}
+,
+				"obj-6::obj-2::obj-6::obj-5" : 				{
+					"parameter_longname" : "live.numbox[9]"
+				}
+,
+				"obj-6::obj-2::obj-9::obj-5" : 				{
+					"parameter_longname" : "live.numbox[10]"
+				}
 
 			}
 ,
@@ -433,6 +473,13 @@
 				"name" : "hs_tab_page_MIX1.maxpat",
 				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gatedsignal.maxpat",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers/abstractions",
+				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 542.0, 758.0 ],
+		"rect" : [ 59.0, 106.0, 542.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"appearance" : 1,
+					"id" : "obj-6",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 132.0, 290.0, 53.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 64.0, 35.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "A", "B", "C", "D", "E" ],
+							"parameter_longname" : "Preset Bank",
+							"parameter_mmax" : 4,
+							"parameter_shortname" : "PresetBank",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "PresetBank"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 344.16339869281046, 60.0, 131.0, 22.0 ],
+					"text" : "r ---updatePanelColour"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
@@ -91,11 +130,10 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 242.0, 44.0, 18.0 ],
+					"patching_rect" : [ 150.0, 258.0, 44.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 48.0, 35.0, 18.0 ],
+					"presentation_rect" : [ 11.0, 42.0, 35.0, 18.0 ],
 					"text" : "Bank",
-					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -162,9 +200,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.482352941176471, 0.184313725490196, 0.0, 1.0 ],
-					"activefgdialcolor" : [ 0.407843137254902, 0.407843137254902, 0.407843137254902, 1.0 ],
-					"activeneedlecolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -173,10 +208,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 271.583333333333258, 273.5, 74.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 95.0, 53.0, 48.0 ],
+					"presentation_rect" : [ 2.0, 90.0, 53.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Program number",
+							"parameter_longname" : "Preset Program",
 							"parameter_mmax" : 128.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "Program",
@@ -186,40 +221,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
-					"varname" : "Program"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgoncolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
-					"focusbordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-31",
-					"lcdcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
-					"maxclass" : "live.tab",
-					"num_lines_patching" : 5,
-					"num_lines_presentation" : 5,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 130.833333333333258, 268.0, 65.999999999999943, 77.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 66.0, 21.0, 77.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "A", "B", "C", "D", "E" ],
-							"parameter_longname" : "live.tab[7]",
-							"parameter_mmax" : 4,
-							"parameter_shortname" : "live.tab",
-							"parameter_type" : 2,
-							"parameter_unitstyle" : 9
-						}
-
-					}
-,
-					"varname" : "live.tab[1]"
+					"varname" : "PresetProgram"
 				}
 
 			}
@@ -277,9 +279,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.0, 69.0, 94.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 9.5, 82.0, 18.0 ],
-					"text" : "Program Change",
-					"textcolor" : [ 0.964705882352941, 0.392156862745098, 0.117647058823529, 1.0 ],
+					"presentation_rect" : [ 0.0, 6.5, 59.0, 18.0 ],
+					"text" : "Preset",
 					"textjustification" : 1
 				}
 
@@ -287,27 +288,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bordercolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"id" : "obj-11",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 120.0, 63.0, 50.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 82.0, 37.0 ],
-					"proportion" : 0.5,
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"border" : 2,
-					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1 ],
 					"id" : "obj-7",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -315,7 +296,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 344.16339869281046, 132.0, 63.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 82.0, 168.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 59.0, 142.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -344,7 +325,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -453,15 +434,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 2 ],
-					"source" : [ "obj-31", 0 ]
+					"destination" : [ "obj-17", 2 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 2 ],
-					"source" : [ "obj-35", 0 ]
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 2 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -469,8 +457,8 @@
 		"parameters" : 		{
 			"obj-17::obj-5" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-18::obj-5" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-31" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-35" : [ "Program number", "Program", 0 ],
+			"obj-35" : [ "Preset Program", "Program", 0 ],
+			"obj-6" : [ "Preset Bank", "PresetBank", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -487,8 +475,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "gatedsignal.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/mgm.tools/patchers",
-				"patcherrelativepath" : "../../../../Max 8/Packages/mgm.tools/patchers",
+				"bootpath" : "~/dev/code/Max/HydrasynthEssentials/patchers/abstractions",
+				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
