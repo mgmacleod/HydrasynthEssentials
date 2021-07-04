@@ -1,6 +1,6 @@
 # HydrasynthEssentials
 
-![UI Screenshot](https://github.com/mgmacleod/HydrasynthEssentials/blob/0315767fd520a80a3ec1f57b77acb42543915e7a/img/v0_1/HSE_v1.0.png "UI Screenshot")
+<img src="img/v0_1/HSE_v1.0.png">
 
 ## Overview
 HydrasynthEssentials (HSE for short) is a Max4Live controller for the essential functions of the ASM Hydrasynth.  It allows bidirectional control of the critical parameters, with the primary goal of making them available for automation/modulation in Ableton Live.
