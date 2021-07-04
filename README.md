@@ -25,37 +25,37 @@ Minimum Versions:
     - Mac: `Macintosh HD/Users/[username]/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect`
 
 ## Basic Usage
-1. Drag the device from your user library onto a MIDI track
+- Drag the device from your user library onto a MIDI track
   - I use an External Instrument device after HSE to handle audio and MIDI I/O for the Hydrasynth
-1. When first placed on the track, none of the on-screen controls will have an effect on the Hydrasynth hardware
+- When first placed on the track, none of the on-screen controls will have an effect on the Hydrasynth hardware
   - This is by design
   - The intention was to prevent any of the software controls from affecting the hardware until the value has been set by incoming MIDI data
-1. Load a preset on the hardware
+- Load a preset on the hardware
   - The software will respond and update its corresponding Bank and Program controls
-1. Start changing parameters on the hardware
+- Start changing parameters on the hardware
   - When a supported parameter is changed on the hardware, the software updates
-1. If you save and reload the Live Set at this point, you should see that the device sets the hardware to the same preset and applies whatever other changes have been saved for supported parameters
-1. You can automate any of the controls on the device just like you would any other device or plugin in Ableton Live
+- If you save and reload the Live Set at this point, you should see that the device sets the hardware to the same preset and applies whatever other changes have been saved for supported parameters
+- You can automate any of the controls on the device just like you would any other device or plugin in Ableton Live
   - note that automation will only take effect if the control to be automated has previously had its value set via incoming MIDI data at least once
 
 ## Settings
-1. There is a 'Settings' section that is hidden by default
-1. Click the (>) button toward the top right
-1. Here you can modify some basic configuration settings
-  1. Program Change Delay
+- There is a 'Settings' section that is hidden by default
+- Click the (>) button toward the top right
+- Here you can modify some basic configuration settings
+  - Program Change Delay
     - When you load a saved Live Set, HSE will send out a program change MIDI message to put the hardware into the proper state
     - this determines the time (in milliseconds) to wait after the device is loaded before sending out that program change message
-  1. Control Change Delay
+  - Control Change Delay
     - After the program change message has been sent, HSE will send out a NRPN message for every control on the device to update the hardware (only those controls that have been previously set by incoming MIDI are sent out to avoid default values from destroying presets on the hardware)
     - This sets the time (in milliseconds) to wait before sending the NRPN messages
-  1. Control Change Jitter
+  - Control Change Jitter
     - Adds a random amount of delay for each NRPN message to avoid 'overloading' the MIDI system
-  1. Bypass Gate
+  - Bypass Gate
     - When enabled, this bypasses the 'MIDI gating' system described previously which prevents software controls from affecting the hardware until set by incoming MIDI
 
 ## Using the Development Version
 
 If you want to work directly with the development version of the device, follow the steps below:
-1. Clone the repo into a folder on your [Max Search Path](https://docs.cycling74.com/max8/vignettes/search_path)
-1. Drag the `HydrasynthEssentials_dev.amxd` file directly onto a MIDI track in Live
+- Clone the repo into a folder on your [Max Search Path](https://docs.cycling74.com/max8/vignettes/search_path)
+- Drag the `HydrasynthEssentials_dev.amxd` file directly onto a MIDI track in Live
   - don't copy it into your user library in this case
